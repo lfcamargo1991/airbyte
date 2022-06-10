@@ -109,7 +109,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: gcs-log-creds
-  namespace: default
+  namespace: uat
 data:
   gcp.json: <base64-encoded-string>
 ```
